@@ -1,0 +1,40 @@
+.wave:hover {
+  background-image: url("https://webdevtrick.com/wp-content/uploads/water-wave.png");
+  filter: sepia(0) contrast(0.6) saturate(1.9) hue-rotate(360) brightness(1.4);
+  background-color: black;
+  animation: wave-animation 1s infinite linear, loading-animation 1.5s;
+  background-size: 200px 145px;
+  background-repeat: repeat-x;
+  opacity: 1;
+
+  .tech-title{
+      animation: text-animation 3s
+  }
+}
+
+@keyframes wave-animation {
+  0% {
+    background-position: 0px bottom;
+  }
+  100% {
+    background-position: 185px bottom;
+  }
+}
+
+@keyframes loading-animation {
+  0% {
+    background-size: 200px 0px;
+  }
+  100% {
+    background-size: 200px 145px;
+  }
+}
+
+@keyframes text-animation {
+  0% {
+    color: white;
+  }
+  100% {
+    color: black;    
+  }
+}

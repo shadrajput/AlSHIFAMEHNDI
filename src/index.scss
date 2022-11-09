@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.banner {
+  background-image:  url("../public/images/hero.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.quatation1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.621),rgba(0, 0, 0, 0.56)), url("../public/images/qua3-transformed.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.Arbic_btn:hover .send{
+  display: flex;
+}
+
+.Bridal {
+  background-image:  url("../public/images/qua3.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.g-btn {
+
+  background: linear-gradient(to left, transparent 50%, #571217 50%);
+  background-size: 200%;
+  background-position: right;
+  transition: background-position 0.8s;
+}
+
+.g-btn:hover {
+  background-position: left;
+}
+
+.q-btn {
+
+  background: linear-gradient(to left, transparent 50%, #FFf 50%);
+  background-size: 200%;
+  background-position: right;
+  transition: background-position 0.8s;
+}
+
+.q-btn:hover {
+  background-position: left;
+}
+
+.slider {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// .image {
+//   width: 40vh;
+//   height: 50vh;
+//   border-radius: 10px;
+//   position: absolute;
+//   top: -40px;
+//   left: 100px;
+// }
+
+.contactus-img {
+  background-image: url("../public/images/figur.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.btn:hover {
+  width: 100px;
+}
+
+.btn:hover .send {
+  display: flex;
+
+}
+
+.all_websites_btn:hover {
+  background-color: rgb(15 23 42) !important;
+  color: white !important;
+}
+
+.only_websites_btn:hover {
+  background-color: rgb(15 23 42) !important;
+  color: white !important;
+}
+
+.only_desktop_btn:hover {
+  background-color: rgb(15 23 42) !important;
+  color: white !important;
+}
+
+
+
+
+
