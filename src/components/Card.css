@@ -1,0 +1,216 @@
+/* Card 1 */
+
+.card1 {
+    background-image: url("/public/images/bridal.jpg");
+    background-size: cover;
+    border-radius: 20px;
+    transition: transform 500ms ease;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.card1:hover {
+    transform: scale(1.05);
+}
+
+.card-content {
+    --padding: .7rem;
+    padding: var(--padding);
+    background-color: #571217aa;
+    transform: translateY(79%);
+    transition: transform 500ms ease;
+}
+
+.card1:hover .card-content{
+    transform: translateY(0);
+}
+
+.card-title {
+    position: relative;
+    width: max-content;
+}
+
+.card-title::after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    left: 0;
+    bottom: 0;
+    background: white;
+    width: 100%;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 2000ms ease;
+}
+
+.card1:hover .card-title::after {
+    transform: scaleX(1);
+}
+
+.card-body {
+    color: rgb(255 255, 255 / 0.85);
+}
+
+
+/* Card 2 */
+
+.card2 {
+    background-image: url("/public/images/arabicqu.jpeg");
+    background-size: cover;
+    border-radius: 20px;
+    transition: transform 500ms ease;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.card2:hover {
+    transform: scale(1.05);
+}
+
+.card-content {
+    --padding: .7rem;
+    padding: var(--padding);
+    background-color: #571217aa;
+    transform: translateY(79%);
+    transition: transform 500ms ease;
+}
+
+.card2:hover .card-content{
+    transform: translateY(0);
+}
+
+.card-title {
+    position: relative;
+    width: max-content;
+}
+
+.card-title::after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    left: 0;
+    bottom: 0;
+    background: white;
+    width: 100%;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 2000ms ease;
+}
+
+.card2:hover .card-title::after {
+    transform: scaleX(1);
+}
+
+.card-body {
+    color: rgb(255 255, 255 / 0.85);
+}
+
+
+/* Card 3 */
+
+.card3 {
+    background-image: url("/public/images/cvl.jpg");
+    background-size: cover;
+    border-radius: 20px;
+    transition: transform 500ms ease;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.card3:hover {
+    transform: scale(1.05);
+}
+
+.card-content {
+    --padding: .7rem;
+    padding: var(--padding);
+    background-color: #571217aa;
+    transform: translateY(79%);
+    transition: transform 500ms ease;
+}
+
+.card3:hover .card-content{
+    transform: translateY(0);
+}
+
+.card-title {
+    position: relative;
+    width: max-content;
+}
+
+.card-title::after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    left: 0;
+    bottom: 0;
+    background: white;
+    width: 100%;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 2000ms ease;
+}
+
+.card3:hover .card-title::after {
+    transform: scaleX(1);
+}
+
+.card-body {
+    color: rgb(255 255, 255 / 0.85);
+}
+
+
+/* Card 4 */
+
+.card4 {
+    background-image: url("/public/images/Contact.jpg");
+    background-size: cover;
+    border-radius: 20px;
+    transition: transform 500ms ease;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.card4:hover {
+    transform: scale(1.05);
+}
+
+.card-content {
+    --padding: .7rem;
+    padding: var(--padding);
+    background-color: #571217aa;
+    transform: translateY(79%);
+    transition: transform 500ms ease;
+}
+
+.card4:hover .card-content{
+    transform: translateY(0);
+}
+
+.card-title {
+    position: relative;
+    width: max-content;
+}
+
+.card-title::after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    left: 0;
+    bottom: 0;
+    background: white;
+    width: 100%;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 2000ms ease;
+}
+
+.card4:hover .card-title::after {
+    transform: scaleX(1);
+}
+
+.card-body {
+    color: rgb(255 255, 255 / 0.85);
+}
+
+
