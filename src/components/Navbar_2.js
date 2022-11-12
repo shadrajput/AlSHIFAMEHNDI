@@ -51,14 +51,14 @@ const Navbar_2 = () => {
                             <FaTimes />
                         </div>
                         <li className="nav-item px-3   ">
-                            <Link className='Link' to="/" spy={true} smooth={true} offset={7} duration={500} onClick={closeMenu}>
+                            <Link className='Link' to="/" spy={true} smooth={true} offset={0} duration={500} onClick={closeMenu}>
                                 <h1 className='relative px-1 font-semibold text-white hover:cursor-pointer text-2xl md:text-lg xl:text-base'>
                                     Home
                                 </h1>
                             </Link>
                         </li>
                         <li className="nav-item  px-3  ">
-                            <Link className='Link' to="Services" spy={true} smooth={true} offset={7} duration={500} >
+                            <Link className='Link' to="Services" spy={true} smooth={true} offset={-70} duration={500} >
                                 <h1 className='relative px-1 font-semibold text-white hover:cursor-pointer text-2xl md:text-lg xl:text-base'>
                                     Services
                                 </h1>

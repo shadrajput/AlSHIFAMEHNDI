@@ -25,7 +25,7 @@ const Aboutus = () => {
         </div>
         <div className="xl:flex xl:justify-center items-center  xl:space-x-28 space-y-10   py-10 ">
           <div className="xl:w-fit flex justify-center  xl:h-fit xl:mt-32" >
-            <img src='./images/figur.jpg' className="group w-2/4 sm:w-1/2 lg:w-1/3  xl:w-[80%]  xl:ml-52 xl:mt-[-50px] hover:scale-110 hover:z-10 rounded-lg" style={{ boxShadow: 'rgba(0, 0, 0, 0.5) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px', transition: "all ease-in-out .3s" }} id="main-img" alt="" />
+            <img src='./images/figur.jpg' className="group w-2/4 sm:w-1/2 lg:w-1/3  xl:w-[80%]  xl:ml-52 xl:mt-[-50px] hover:scale-110 hover:z-30 rounded-lg" style={{ boxShadow: 'rgba(0, 0, 0, 0.5) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px', transition: "all ease-in-out .3s" }} id="main-img" alt="" />
           </div>
           <div className=' flex justify-center items-center space-x-5 sm:space-x-7 px-14 md:px-20 lg:px-0 lg:space-x-6 lg:space-y-0  lg:mx-0 xl:block xl:space-x-0 xl:space-y-6 '>
             <img src='./images/bridal.jpg' className="rounded-lg  w-1/3 lg:w-1/5 xl:w-[50%]  cursor-pointer hover:scale-110 hover:z-30 " alt="" style={{ boxShadow: "rgba(0, 0, 0, 0.5) 0px 10px 15px", transition: "all ease-in-out .3s" }} id="image-1" />
