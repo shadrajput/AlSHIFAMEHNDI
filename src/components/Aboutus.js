@@ -32,7 +32,7 @@ const Aboutus = () => {
 
             <img src='./images/cvl.jpg' sr className="rounded-lg w-1/3 lg:w-1/5 xl:w-[50%]  cursor-pointer hover:scale-110 hover:z-30" id="image-2" style={{ boxShadow: 'rgba(0, 0, 0, 0.5) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px', transition: "all ease-in-out .3s" }} alt="" />
 
-            <img src='./images/figur.jpg' sr className=" w-1/3 lg:w-1/5 xl:w-[50%]  cursor-pointer rounded-lg  hover:scale-110  hover:z-50 " id="image-3" style={{ transition: "all ease-in-out .3s", boxShadow: 'rgba(0, 0, 0, 0.5) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px' }} alt="" />
+            <img src='./images/Arebic.jpg' sr className=" w-1/3 lg:w-1/5 xl:w-[50%]  cursor-pointer rounded-lg  hover:scale-110  hover:z-50 " id="image-3" style={{ transition: "all ease-in-out .3s", boxShadow: 'rgba(0, 0, 0, 0.5) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px' }} alt="" />
           </div>
         </div>
       </div>

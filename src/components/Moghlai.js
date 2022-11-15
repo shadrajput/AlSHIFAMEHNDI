@@ -45,12 +45,12 @@ const Moghlai = () => {
                             </div>
                             <div className='py-8  space-y-5'>
                                 <div className='flex justify-between items-center'>
-                                    <h1 className='text-2xl text-[#571217]'>Palm</h1>
-                                    <h1 className='text-2xl text-[#571217]'>100/-</h1>
+                                    <h1 className='text-xl text-[#571217]'>Palm</h1>
+                                    <h1 className='text-xl text-[#571217]'>100/-</h1>
                                 </div>
                                 <div className='flex justify-between items-center'>
-                                    <h1 className='text-2xl text-[#571217]'>4 Finger</h1>
-                                    <h1 className='text-2xl text-[#571217]'>200/-</h1>
+                                    <h1 className='text-xl text-[#571217]'>4 Finger</h1>
+                                    <h1 className='text-xl text-[#571217]'>200/-</h1>
                                 </div>
 
                             </div>

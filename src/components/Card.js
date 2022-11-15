@@ -55,11 +55,12 @@ const Card = () => {
 
               </NavLink>
             </div>
-            <div className="card3 w-3/4 sm:w-2/5 md:w-2/5 lg:w-[30%] xl:w-1/5 pt-10">
-              <NavLink to="/Figur">
+           
+            <div className="card4 w-3/4 sm:w-2/5 md:w-2/5 lg:w-[30%] xl:w-1/5 pt-10">
+              <NavLink to="/Bridal">
                 <div className="card-content space-y-3 ">
                   <h2 className="card-title text-white font-bold text-2xl pb-1">
-                    Figur Mehndi
+                    Bridal Mehndi
                   </h2>
 
                   <p className="card-body text-white text-sm ">
@@ -74,11 +75,11 @@ const Card = () => {
                 </div>
               </NavLink>
             </div>
-            <div className="card4 w-3/4 sm:w-2/5 md:w-2/5 lg:w-[30%] xl:w-1/5 pt-10">
-              <NavLink to="/Bridal">
+            <div className="card3 w-3/4 sm:w-2/5 md:w-2/5 lg:w-[30%] xl:w-1/5 pt-10">
+              <NavLink to="/Figur">
                 <div className="card-content space-y-3 ">
                   <h2 className="card-title text-white font-bold text-2xl pb-1">
-                    Bridal Mehndi
+                    Figur Mehndi
                   </h2>
 
                   <p className="card-body text-white text-sm ">

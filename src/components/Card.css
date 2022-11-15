@@ -1,7 +1,7 @@
 /* Card 1 */
 
 .card1 {
-    background-image: url("/public/images/bridal.jpg");
+    background-image: url("/public/images/Arebic.jpg");
     background-size: cover;
     border-radius: 20px;
     transition: transform 500ms ease;
@@ -55,7 +55,7 @@
 /* Card 2 */
 
 .card2 {
-    background-image: url("/public/images/arabicqu.jpeg");
+    background-image: url("/public/images/moghlai.jpg");
     background-size: cover;
     border-radius: 20px;
     transition: transform 500ms ease;
@@ -109,7 +109,7 @@
 /* Card 3 */
 
 .card3 {
-    background-image: url("/public/images/cvl.jpg");
+    background-image: url("/public/images/bridal.jpg");
     background-size: cover;
     border-radius: 20px;
     transition: transform 500ms ease;

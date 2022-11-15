@@ -64,8 +64,8 @@ const Arebic = () => {
                                         <input type="email" id='email' name="email" autoComplete='off' required placeholder='Email' className='w-full outline-none border-b-2 border-b-[#e9dac7]  py-1' />
                                         <input type="text" id='message' name='message' autoComplete='off' required placeholder='message' className='w-full outline-none border-b-2 border-b-[#e9dac7]  py-1' />
                                         <div className='flex justify-start items-center '>
-                                            <button disabled={isLoadingOnSubmit} className={`con-btn  ${isLoadingOnSubmit ? "opacity-50 w-32" : "opacity-100"} bg-[#e9dac7] text-[#571217] font-semibold rounded-full w-24 h-10 flex justify-center space-x-1 items-center duration-500 hover:shadow-2xl `}>
-                                                {isLoadingOnSubmit ? 'Loading...' : 'Send'}
+                                            <button disabled={isLoadingOnSubmit} className={`con-btn  ${isLoadingOnSubmit ? "opacity-50 w-36" : "opacity-100"} bg-[#e9dac7] text-[#571217] font-semibold rounded-full w-24 h-10 flex justify-center space-x-1 items-center duration-500 hover:shadow-2xl `}>
+                                                {isLoadingOnSubmit ? 'Sending...' : 'Send'}
                                                 <IoIosSend className='text-[#571217] text-2xl ml-1 ' />
                                             </button>
                                         </div>
