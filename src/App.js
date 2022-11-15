@@ -2,12 +2,11 @@ import React, { useEffect } from 'react';
 import Home from './pages/Home';
 import { Route, Routes } from "react-router-dom";
 import Contact from './components/Contact';
-import Services from './pages/Services';
-import Quotation from './components/Quotation';
-import Bridal from './components/Bridal';
-import Figur from './components/Figur';
 import Moghlai from './components/Moghlai';
+import Figur from './components/Figur';
 import Preloader from './components/Preloader';
+import Arebic from "./components/Arebic"
+import Bridal from './components/Bridal';
 
 
 
@@ -28,12 +27,11 @@ const App = () => {
           :
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/Quotation" element={<Quotation />} />
-            <Route path="/Bridal" element={<Bridal />} />
-            <Route path="/Figur" element={<Figur />} />
+            <Route path="/Arebic" element={<Arebic />} />
             <Route path="/Moghlai" element={<Moghlai />} />
-            <Route path="/Quotation/Contact" element={<Contact />} />
-            <Route path="/Services" element={<Services />} />
+            <Route path="/Figur" element={<Figur />} />
+            <Route path="/Bridal" element={<Bridal />} />
+            {/* <Route path="/Arebic/Contact" element={<Contact />} /> */}
           </Routes>
       }
 
