@@ -11,9 +11,9 @@ const Card = () => {
     <>
       <section className='' id='Card'>
         <div className='lg:mx-10 xl:mx-0 md:mx-10 sm:mx-0 mx-0 px-5 services xl:h-full py-5 xl:py-10 ' >
-          {/* <h1 className='text-3xl sm:text-3xl  text-center md:text-4xl lg:text-5xl font-semibold text-[#571217]  '>
+          <h1 className='text-3xl sm:text-3xl  text-center md:text-4xl lg:text-5xl font-semibold text-[#571217]  '>
             Services
-          </h1> */}
+          </h1>
           <div className='flex-wrap bg md:justify-center lg:justify-center md:space-y-0 md:space-x-0 gap-10 sm:space-x-0 sm:space-y-0 flex justify-center xl:justify-center items-center py-10 space-y-5  lg:space-y-0 lg:space-x-0 xl:space-y-0 '>
             <div className="card1  w-3/4 sm:w-2/5 md:w-2/5 lg:w-[30%] xl:w-1/5 pt-10">
               <NavLink to="/Arebic">
