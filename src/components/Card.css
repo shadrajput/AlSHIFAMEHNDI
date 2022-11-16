@@ -109,7 +109,7 @@
 /* Card 3 */
 
 .card3 {
-    background-image: url("/public/images/bridal.jpg");
+    background-image: url("/public/images/Bridale.jpg");
     background-size: cover;
     border-radius: 20px;
     transition: transform 500ms ease;
@@ -163,7 +163,7 @@
 /* Card 4 */
 
 .card4 {
-    background-image: url("/public/images/Contact.jpg");
+    background-image: url("/public/images/bridal.jpg");
     background-size: cover;
     border-radius: 20px;
     transition: transform 500ms ease;

@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { AiOutlineInstagram } from 'react-icons/ai'
 import { FiFacebook } from 'react-icons/fi'
 import { AiOutlineYoutube } from 'react-icons/ai'
-import { NavLink } from "react-router-dom";
+import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 const Footer = () => {
   return (
@@ -18,14 +18,14 @@ const Footer = () => {
               </div>
 
               <div className="contact-short-btn flex justify-center mt-3">
-                <NavLink to="Services">
+              <Link className='Link' to="Contact" spy={true} smooth={true} offset={-50} duration={500} >
                   <button>
                     <span className="relative inline-flex items-center cursor-pointer justify-center px-5 py-1 xl:px-8 xl:py-2 overflow-hidden font-mono font-medium tracking-tighter text-white border-2 border-[#571217] hover:border-[#571217] hover:text-[#571217] bg-[#571217]  rounded-full group">
                       <span className="absolute w-0 h-0 transition-all duration-500 ease-out bg-white  rounded-full group-hover:w-56 group-hover:h-56"></span>
                       <span className="relative font-bold uppercase">Get Started</span>
                     </span>
                   </button>
-                </NavLink>
+                </Link>
               </div>
             </div>
 

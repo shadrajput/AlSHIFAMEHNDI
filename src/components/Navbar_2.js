@@ -58,7 +58,7 @@ const Navbar_2 = () => {
                             </Link>
                         </li>
                         <li className="nav-item  px-3  ">
-                            <Link className='Link' to="Services" spy={true} smooth={true} offset={-70} duration={500} >
+                            <Link className='Link' to="Card" spy={true} smooth={true} offset={-70} duration={500} >
                                 <h1 className='relative px-1 font-semibold text-white hover:cursor-pointer text-2xl md:text-lg xl:text-base'>
                                     Services
                                 </h1>
@@ -71,13 +71,6 @@ const Navbar_2 = () => {
                                 </h1>
                             </Link>
                         </li>
-                        <li className="nav-item  px-3  ">
-                            <Link className='Link' to="Project" spy={true} smooth={true} offset={-30} duration={500} >
-                                <h1 className='relative px-1 font-semibold text-white hover:cursor-pointer text-2xl md:text-lg xl:text-base'>
-                                    Testimonials
-                                </h1>
-                            </Link>
-                        </li>
                         <li className="nav-item  px-3 ">
                             <Link className='Link' to="Galary" spy={true} smooth={true} offset={-35} duration={500} >
                                 <h1 className='relative px-1 font-semibold text-white hover:cursor-pointer text-2xl md:text-lg xl:text-base'>
@@ -85,6 +78,14 @@ const Navbar_2 = () => {
                                 </h1>
                             </Link>
                         </li>
+                        <li className="nav-item  px-3  ">
+                            <Link className='Link' to="Project" spy={true} smooth={true} offset={-30} duration={500} >
+                                <h1 className='relative px-1 font-semibold text-white hover:cursor-pointer text-2xl md:text-lg xl:text-base'>
+                                    Testimonials
+                                </h1>
+                            </Link>
+                        </li>
+                        
                         <li className="nav-item  px-3  ">
                             <Link className='Link' to="Contact" spy={true} smooth={true} offset={-45} duration={500} >
                                 <h1 className='relative px-1 font-semibold text-white hover:cursor-pointer text-2xl md:text-lg xl:text-base'>

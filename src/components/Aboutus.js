@@ -9,14 +9,16 @@ const Aboutus = () => {
       <div className="  sm:flex md:flex lg:flex xl:flex justify-center items-center ">
         <div className='xl:w-2/3 lg:w-[110%] ml-0 sm:ml-0 md:ml-0 xl:ml-0 lg:ml-10'>
           <h3 className="text-3xl sm:text-3xl  md:text-4xl lg:text-5xl font-semibold text-[#571217] text-center xl:text-left lg:text-left">About Us</h3>
-          <p className="text-base  lg:text-lg xl:text-lg font-medium text-gray-700 text-justify mt-5">Corporate Volleyball League is the Volleyball site where the visitors can view the live score and players create their own teams to participate in upcoming tournaments and anyone can host the tournaments</p>
-          <Link className='Link' to="Contact" spy={true} smooth={true} offset={-50} duration={500} >
+          <p className="text-base  lg:text-lg xl:text-lg font-medium text-gray-700 text-justify mt-5">
+            We are provided mostly 4 category in mehndi and our all category we provide regnable price and Mehendi will be applied at our place as per your choice and you will start to feel more beautiful with the mehndi applied on your hands.and you want to know more about my category so please click on know more button
+          </p>
+          <Link className='Link' to="Card" spy={true} smooth={true} offset={-50} duration={500} >
 
             <div className='mt-5 flex justify-center xl:justify-start lg:justify-start '>
               <div>
                 <span className="relative inline-flex items-center justify-center px-6 py-2 md:py-2  md:px-10 md:text-base text-sm   xl:px-10 xl:py-3 xl:text-base mx overflow-hidden font-semibold tracking-tighter hover:text-[#571217] hover:shadow-xl  bg-[#571217] text-white rounded-full cursor-pointer group">
                   <span className="absolute w-0 h-0 transition-all duration-700 ease-out bg-[#e9dac7] rounded-full group-hover:w-56 group-hover:h-56"></span>
-                  <span className="relative">Contact With Us</span>
+                  <span className="relative">Know More</span>
                 </span>
               </div>
             </div>
