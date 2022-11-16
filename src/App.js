@@ -7,6 +7,7 @@ import Figur from './components/Figur';
 import Preloader from './components/Preloader';
 import Arebic from "./components/Arebic"
 import Bridal from './components/Bridal';
+import Web_custom from './components/Web_custom';
 
 
 
@@ -27,6 +28,7 @@ const App = () => {
           :
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/Web_custom" element={<Web_custom />} />
             <Route path="/Arebic" element={<Arebic />} />
             <Route path="/Moghlai" element={<Moghlai />} />
             <Route path="/Figur" element={<Figur />} />
