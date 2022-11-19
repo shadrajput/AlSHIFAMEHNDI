@@ -22,10 +22,10 @@ const App = () => {
   }, [])
   return (
     <>
-      {
-        Loading ?
+      {/* {
+        Loading ? */}
           <Preloader />
-          :
+          {/* :
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/Web_custom" element={<Web_custom />} />
@@ -34,7 +34,7 @@ const App = () => {
             <Route path="/Figur" element={<Figur />} />
             <Route path="/Bridal" element={<Bridal />} />
           </Routes>
-      }
+      } */}
 
     </>
   )
