@@ -71,13 +71,13 @@ const Galary = () => {
                 console.log(item, "item")
                 return (
               <div className=' w-[120px] md:w-[150px] lg:w-[200px] xl:w-[280px] space-y-5 sm:space-x-0 sm:space-y-10 md:space-y-5 justify-center items-center xl:block  xl:space-x-0  xl:space-y-10 xl:py-5 '>
-                <div className='flex justify-center'>
-                  <img src={item.img_1} alt="" className='w-3/4 md:w-5/6  xl:w-[230px] xl:h-[200px]  rounded-md hover:scale-110 duration-300'
-                    style={{ boxShadow: 'rgba(0, 0, 0, 0.5) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px', transition: "all ease-in-out .3s" }} />
+                <div className='flex justify-center overflow-hidden'>
+                  <img src={item.img_1} alt="" className='w-3/4 md:w-5/6  xl:w-[230px] xl:h-[200px] mt-3 rounded-md hover:scale-110 duration-300'
+                    style={{ transition: "all ease-in-out 1.5s" }} />
                 </div>
-                <div className='flex justify-center'>
+                <div className='flex justify-center overflow-hidden'>
                   <img src={item.img_2} alt="" className='w-3/4 md:w-5/6  xl:w-[230px] xl:h-[300px]  rounded-md hover:scale-110 duration-300'
-                    style={{ boxShadow: 'rgba(0, 0, 0, 0.5) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px', transition: "all ease-in-out .3s" }}
+                    style={{  transition: "all ease-in-out 1.5s" }}
                   />
                 </div>
               </div>

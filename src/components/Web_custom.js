@@ -23,11 +23,11 @@ const Web_custom = () => {
           <img src="./images/WHITE.PNG" alt="" className='w-[14%]' />
           <div className=' flex justify-end items-center space-x-10'>
             <div className='space-y-1'>
-              <AiFillLinkedin className='text-white ml-6 text-3xl' />
+              <AiFillLinkedin className='text-white ml-4 text-3xl' />
               <p className='text-white'>wellbenix</p>
             </div>
             <div className='space-y-1'>
-              <AiFillInstagram className='text-white ml-6 text-3xl' />
+              <AiFillInstagram className='text-white ml-4 text-3xl' />
               <p className='text-white'>wellbenix</p>
             </div>
           </div>
@@ -81,7 +81,7 @@ const Web_custom = () => {
             <div className='space-y-1'>
               <AiFillPhone className='text-white text-4xl ml-8' />
               <p className='text-white text-xl'>
-                1234567890
+                9328027580
               </p>
             </div>
             <div className='space-y-1'>
@@ -93,7 +93,7 @@ const Web_custom = () => {
             <div className='space-y-3'>
               <GoLocation className='text-white text-4xl ml-16' />
               <p className='text-white text-xl'>
-                www.wellbenix.com
+                wellbenix.com
               </p>
             </div>
 

@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import emailjs from "emailjs-com"
 import { AiFillCloseCircle } from "react-icons/ai";
 import { IoIosSend } from 'react-icons/io'
-import { ToastContainer, toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 
@@ -30,6 +30,7 @@ const Arebic = () => {
                 console.log(res, res)
                 notify()
                 navigate(`/`)
+                setModel(false)
                 setIsLoadingOnSubmit(false)
                 document.getElementById('Name').value = ' '
                 document.getElementById('email').value = ' '
@@ -64,7 +65,7 @@ const Arebic = () => {
                                         <input type="email" id='email' name="email" autoComplete='off' required placeholder='Email' className='w-full outline-none border-b-2 border-b-[#e9dac7]  py-1' />
                                         <input type="text" id='message' name='message' autoComplete='off' required placeholder='message' className='w-full outline-none border-b-2 border-b-[#e9dac7]  py-1' />
                                         <div className='flex justify-start items-center '>
-                                            <button disabled={isLoadingOnSubmit} className={`con-btn  ${isLoadingOnSubmit ? "opacity-50 w-[140px]" : "opacity-100"} bg-[#e9dac7] text-[#571217] font-semibold rounded-full w-24 h-10 flex justify-center space-x-1 items-center duration-500 hover:shadow-2xl `}>
+                                            <button disabled={isLoadingOnSubmit} className={`con-btn  ${isLoadingOnSubmit ? "opacity-50 w-[145px]" : "opacity-100"} bg-[#e9dac7] text-[#571217] font-semibold rounded-full w-24 h-10 flex justify-center space-x-1 items-center duration-500 hover:shadow-2xl `}>
                                                 {isLoadingOnSubmit ? 'Sending...' : 'Send'}
                                                 <IoIosSend className='text-[#571217] text-2xl ml-1 ' />
                                             </button>
